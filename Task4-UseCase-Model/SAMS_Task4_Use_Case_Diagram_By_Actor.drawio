@@ -1,0 +1,433 @@
+<mxfile host="Electron" agent="ChatGPT" compressed="false" pages="5">
+  <diagram id="p1" name="1 - Student Use Cases">
+    <mxGraphModel dx="1717" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontFamily=Times New Roman;" value="SAMS — Student Use Case Diagram" vertex="1">
+          <mxGeometry height="45" width="1300" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=2;fontFamily=Times New Roman;" value="Use cases available to the Student actor" vertex="1">
+          <mxGeometry height="26" width="1100" x="300" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=2;fontSize=18;fontStyle=1;verticalAlign=top;align=left;spacingTop=12;spacingLeft=15;fontFamily=Times New Roman;" value="Student Activities Management System (SAMS)" vertex="1">
+          <mxGeometry height="860" width="1100" x="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=18;fontStyle=1;fontFamily=Times New Roman;" value="Student" vertex="1">
+          <mxGeometry height="150" width="110" x="85" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="100" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Browse / Search&#xa;Activities" vertex="1">
+          <mxGeometry height="74" width="220" x="310" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="101" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="View Activity&#xa;Details" vertex="1">
+          <mxGeometry height="74" width="210" x="315" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="102" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Reserve Seat" vertex="1">
+          <mxGeometry height="74" width="190" x="960" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="103" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Join Waiting List" vertex="1">
+          <mxGeometry height="74" width="205" x="1180" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="104" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Cancel Reservation" vertex="1">
+          <mxGeometry height="74" width="220" x="600" y="304" as="geometry" />
+        </mxCell>
+        <mxCell id="105" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Scan QR Code" vertex="1">
+          <mxGeometry height="74" width="190" x="340" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="106" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="View Activity&#xa;History" vertex="1">
+          <mxGeometry height="74" width="210" x="515" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="107" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Download Certificate" vertex="1">
+          <mxGeometry height="74" width="220" x="430" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="108" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="View Activity&#xa;Transcript" vertex="1">
+          <mxGeometry height="74" width="230" x="760" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="109" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Validate Eligibility&#xa;&amp;amp; Deadline" vertex="1">
+          <mxGeometry height="78" width="230" x="1130" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="110" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Send Notification" vertex="1">
+          <mxGeometry height="72" width="210" x="800" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="111" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Generate Activity&#xa;Transcript" vertex="1">
+          <mxGeometry height="78" width="230" x="1110" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="112" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Validate Confirmed&#xa;Registration" vertex="1">
+          <mxGeometry height="78" width="235" x="725" y="796" as="geometry" />
+        </mxCell>
+        <mxCell id="200" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="201" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="202" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="102" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="203" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="103" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="204" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="205" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="105" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="206" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="106" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="207" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="107" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="208" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;fontFamily=Times New Roman;" target="108" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="230" edge="1" parent="1" source="102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="109" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="231" edge="1" parent="1" source="103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="102" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="232" edge="1" parent="1" source="102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="110" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="233" edge="1" parent="1" source="104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="110" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="234" edge="1" parent="1" source="108" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="111" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="235" edge="1" parent="1" source="105" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="112" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="300" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#9aa1a9;dashed=1;fontSize=18;fontFamily=Times New Roman;" value="Student-focused page: browsing, registration, attendance, certificates, history, and transcript." vertex="1">
+          <mxGeometry height="34" width="750" x="500" y="970" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2" name="2 - Activity Organizer Use Cases">
+    <mxGraphModel dx="1717" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;fontFamily=Times New Roman;" value="SAMS — Activity Organizer Use Case Diagram" vertex="1">
+          <mxGeometry height="45" width="1300" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=2;fontFamily=Times New Roman;" value="Use cases available to the Activity Organizer actor" vertex="1">
+          <mxGeometry height="26" width="1100" x="300" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=2;fontSize=18;fontStyle=1;verticalAlign=top;align=left;spacingTop=12;spacingLeft=15;fontFamily=Times New Roman;" value="Student Activities Management System (SAMS)" vertex="1">
+          <mxGeometry height="860" width="1100" x="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=18;fontStyle=1;fontFamily=Times New Roman;" value="Activity Organizer" vertex="1">
+          <mxGeometry height="160" width="120" x="1450" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="100" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Create Activity" vertex="1">
+          <mxGeometry height="72" width="200" x="860" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="101" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Edit Activity" vertex="1">
+          <mxGeometry height="72" width="190" x="880" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="102" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Submit Activity&#xa;for Approval" vertex="1">
+          <mxGeometry height="78" width="220" x="1140" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="103" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Cancel Activity" vertex="1">
+          <mxGeometry height="72" width="190" x="1155" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="104" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Manage Participant&#xa;List" vertex="1">
+          <mxGeometry height="78" width="230" x="690" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="106" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Record Attendance" vertex="1">
+          <mxGeometry height="72" width="210" x="1170" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="107" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Issue Certificates" vertex="1">
+          <mxGeometry height="72" width="190" x="380" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="108" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Generate Activity&#xa;Report" vertex="1">
+          <mxGeometry height="78" width="220" x="1125" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="109" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Validate Activity&#xa;Data" vertex="1">
+          <mxGeometry height="78" width="210" x="810" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="110" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Validate Confirmed&#xa;Registration" vertex="1">
+          <mxGeometry height="78" width="235" x="733" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="111" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Send Notification" vertex="1">
+          <mxGeometry height="72" width="200" x="670" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="200" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="201" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="202" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="102" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="203" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="103" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="204" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="205" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="105" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="206" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="106" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="207" edge="1" parent="1" source="105" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="107" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="208" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="108" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="230" edge="1" parent="1" source="102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="109" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="231" edge="1" parent="1" source="102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="111" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="232" edge="1" parent="1" source="103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="111" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="233" edge="1" parent="1" source="106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="110" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="234" edge="1" parent="1" source="107" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="111" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="235" edge="1" parent="1" source="105" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;fontFamily=Times New Roman;" target="111" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="300" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#9aa1a9;dashed=1;fontSize=18;fontFamily=Times New Roman;" value="Organizer-focused page: activity lifecycle, participants, attendance, certificates, and reports." vertex="1">
+          <mxGeometry height="34" width="760" x="480" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="yTgl-158gr9NIdPro10G-300" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontFamily=Times New Roman;fontSize=18;" target="105" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="521" as="sourcePoint" />
+            <mxPoint x="555" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="105" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;fontFamily=Times New Roman;" value="Approve / Reject&#xa;Registration" vertex="1">
+          <mxGeometry height="78" width="220" x="820" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p3" name="3 - Student Affairs Use Cases">
+    <mxGraphModel dx="1717" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;" value="SAMS — Student Affairs Use Case Diagram" vertex="1">
+          <mxGeometry height="45" width="1300" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=15;fontStyle=2;" value="Use cases available to the Student Affairs Department actor" vertex="1">
+          <mxGeometry height="26" width="1100" x="300" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=2;fontSize=15;fontStyle=1;verticalAlign=top;align=left;spacingTop=12;spacingLeft=15;" value="Student Activities Management System (SAMS)" vertex="1">
+          <mxGeometry height="860" width="1100" x="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=15;fontStyle=1;" value="Student Affairs Department" vertex="1">
+          <mxGeometry height="170" width="130" x="1450" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="100" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=15;" value="Manage Activity&#xa;Categories" vertex="1">
+          <mxGeometry height="78" width="230" x="810" y="377" as="geometry" />
+        </mxCell>
+        <mxCell id="101" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=15;" value="Approve / Reject&#xa;Activity" vertex="1">
+          <mxGeometry height="78" width="220" x="530" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="102" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=15;" value="Monitor Participation&#xa;Statistics" vertex="1">
+          <mxGeometry height="78" width="235" x="1050" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="103" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=15;" value="Generate Institutional&#xa;Reports" vertex="1">
+          <mxGeometry height="78" width="235" x="1120" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="104" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=15;" value="Verify &amp;amp; Certify&#xa;Activity Transcript" vertex="1">
+          <mxGeometry height="82" width="245" x="1100" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="105" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=15;" value="Publish Approved&#xa;Activity" vertex="1">
+          <mxGeometry height="78" width="220" x="870" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="106" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=15;" value="Send Notification" vertex="1">
+          <mxGeometry height="72" width="210" x="490" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="107" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=15;" value="Generate Activity&#xa;Transcript" vertex="1">
+          <mxGeometry height="78" width="230" x="470" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="200" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=15;" target="100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="201" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=15;" target="101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="202" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=15;" target="102" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="203" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=15;" target="103" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="204" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=15;" target="104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="205" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=15;" target="105" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="230" edge="1" parent="1" source="101" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=15;labelBackgroundColor=#ffffff;" target="106" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="231" edge="1" parent="1" source="101" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=15;labelBackgroundColor=#ffffff;" target="105" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="232" edge="1" parent="1" source="104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=15;labelBackgroundColor=#ffffff;" target="107" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="233" edge="1" parent="1" source="104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=15;labelBackgroundColor=#ffffff;" target="106" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="300" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#9aa1a9;dashed=1;fontSize=15;" value="Student Affairs page: governance, approval, monitoring, institutional reporting, and transcript verification." vertex="1">
+          <mxGeometry height="34" width="820" x="430" y="970" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p4" name="4 - Notification Service Use Cases">
+    <mxGraphModel dx="1585" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontStyle=1;" value="SAMS — Notification Service Use Case Diagram" vertex="1">
+          <mxGeometry height="45" width="1300" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=17;fontStyle=2;" value="Supporting actor responsible for delivering system messages" vertex="1">
+          <mxGeometry height="26" width="1100" x="300" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=2;fontSize=17;fontStyle=1;verticalAlign=top;align=left;spacingTop=12;spacingLeft=15;" value="Student Activities Management System (SAMS)" vertex="1">
+          <mxGeometry height="860" width="1100" x="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=17;fontStyle=1;" value="Notification Service" vertex="1">
+          <mxGeometry height="160" width="130" x="80" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="100" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=17;" value="Send Notification" vertex="1">
+          <mxGeometry height="76" width="230" x="500" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="101" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=17;" value="Send Activity&#xa;Reminder" vertex="1">
+          <mxGeometry height="78" width="230" x="500" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="102" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=17;" value="Send Registration&#xa;Confirmation" vertex="1">
+          <mxGeometry height="78" width="230" x="900" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="103" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=17;" value="Send Waitlist&#xa;Update" vertex="1">
+          <mxGeometry height="78" width="220" x="900" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="104" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=17;" value="Send Approval&#xa;Decision" vertex="1">
+          <mxGeometry height="78" width="220" x="900" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="105" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=17;" value="Send Cancellation&#xa;Notice" vertex="1">
+          <mxGeometry height="78" width="220" x="900" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="106" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=17;" value="Send Certificate&#xa;Availability Notice" vertex="1">
+          <mxGeometry height="82" width="240" x="750" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="200" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=17;" target="100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="201" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=17;" target="101" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="220" edge="1" parent="1" source="102" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=17;labelBackgroundColor=#ffffff;" target="100" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="221" edge="1" parent="1" source="103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=17;labelBackgroundColor=#ffffff;" target="100" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="222" edge="1" parent="1" source="104" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=17;labelBackgroundColor=#ffffff;" target="100" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="223" edge="1" parent="1" source="105" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=17;labelBackgroundColor=#ffffff;" target="100" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="224" edge="1" parent="1" source="106" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=17;labelBackgroundColor=#ffffff;" target="100" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="230" edge="1" parent="1" source="101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=17;labelBackgroundColor=#ffffff;" target="100" value="«include»">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="615" y="570" />
+              <mxPoint x="615" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="300" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#9aa1a9;dashed=1;fontSize=17;" value="All message-specific use cases reuse the general Send Notification behavior." vertex="1">
+          <mxGeometry height="34" width="700" x="520" y="900" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p5" name="5 - Time Triggered Use Cases">
+    <mxGraphModel dx="1585" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" value="SAMS — Time-Triggered Use Case Diagram" vertex="1">
+          <mxGeometry height="45" width="1300" x="200" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=2;" value="Scheduled system behavior initiated by the Time actor" vertex="1">
+          <mxGeometry height="26" width="1100" x="300" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=2;fontSize=18;fontStyle=1;verticalAlign=top;align=left;spacingTop=12;spacingLeft=15;" value="Student Activities Management System (SAMS)" vertex="1">
+          <mxGeometry height="860" width="1100" x="300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=18;fontStyle=1;" value="Time" vertex="1">
+          <mxGeometry height="145" width="100" x="85" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="100" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;" value="Send Activity&#xa;Reminder" vertex="1">
+          <mxGeometry height="78" width="230" x="500" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="101" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;" value="Close Registration&#xa;at Deadline" vertex="1">
+          <mxGeometry height="78" width="240" x="500" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="102" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;" value="Generate Activity&#xa;Transcript at Graduation" vertex="1">
+          <mxGeometry height="82" width="270" x="500" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="103" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;" value="Send Notification" vertex="1">
+          <mxGeometry height="72" width="220" x="950" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="104" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;" value="Update Registration&#xa;Status" vertex="1">
+          <mxGeometry height="78" width="230" x="950" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="105" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f4854;strokeWidth=1.7;fontSize=18;" value="Compile Activity&#xa;Summary" vertex="1">
+          <mxGeometry height="78" width="230" x="950" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="200" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;" target="100" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="201" edge="1" parent="1" source="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;" target="101" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="490" />
+              <mxPoint x="450" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="202" edge="1" parent="1" source="20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startArrow=none;strokeColor=#59636f;strokeWidth=1.5;fontSize=18;" target="102" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="220" edge="1" parent="1" source="100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;" target="103" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="221" edge="1" parent="1" source="101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;" target="104" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="222" edge="1" parent="1" source="102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=open;endFill=0;strokeColor=#59636f;strokeWidth=1.4;fontSize=18;labelBackgroundColor=#ffffff;" target="105" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="300" parent="1" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#fafafa;strokeColor=#9aa1a9;dashed=1;fontSize=18;" value="The Time actor represents scheduled triggers rather than a human user." vertex="1">
+          <mxGeometry height="34" width="650" x="540" y="900" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
