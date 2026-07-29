@@ -2,16 +2,19 @@
 
 **Responsible student:** Khawla
 
-This folder contains two UML Activity Diagrams for the Student Activities Management System (SAMS).
+This folder contains the initial draft of a UML Activity Diagram for the Student Activities Management System (SAMS).
 
-## Selected Processes
+## Selected Process
 
 1. Student registers for an activity.
-2. Organizer creates and publishes an activity.
 
 ## Files
 
-The folder will contain:
-- Editable Draw.io files
-- Exported PDF or PNG versions
-- Revised and final versions
+Currently available:
+- ActivityDiagram1_ver1.pdf (Initial Draft)
+
+Future updates:
+- Second Activity Diagram
+- Editable Draw.io file
+- Revised version
+- Final version
